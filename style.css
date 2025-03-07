@@ -1,75 +1,84 @@
+/* Estilo para el cuerpo de la página */
 body {
-    background-color: firebrick;
-    font-family:'sans-serif';
-    text-align: center;
-    color: white;
-    animation: fadeIn 1s;
+    background-color: firebrick; /* Color de fondo rojo ladrillo */
+    font-family: 'sans-serif'; /* Fuente sans-serif */
+    text-align: center; /* Texto centrado */
+    color: white; /* Color del texto blanco */
+    animation: fadeIn 1s; /* Animación de desvanecimiento al cargar la página */
 }
 
+/* Estilo para las imágenes */
 img {
-    border-radius: 100px;
-    border: solid 2px white;
+    border-radius: 100px; /* Bordes redondeados */
+    border: solid 2px white; /* Borde sólido blanco de 2px */
 }
 
+/* Estilo para el enlace de Instagram */
 .IG {
-    background-color: whitesmoke;
-    color : firebrick;
-    padding: 10px 85px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 5px;
-    font-size: 20px;
-    border-radius: 10px;
+    background-color: whitesmoke; /* Color de fondo blanco humo */
+    color: firebrick; /* Color del texto rojo ladrillo */
+    padding: 10px 85px; /* Relleno interno */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    margin: 5px; /* Margen de 5px */
+    font-size: 20px; /* Tamaño de fuente de 20px */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
+/* Estilo para el enlace de TikTok */
 .TK {
-    background-color: whitesmoke;
-    color : firebrick;
-    padding: 10px 95px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 5px;
-    font-size: 20px;
-    border-radius: 10px;
+    background-color: whitesmoke; /* Color de fondo blanco humo */
+    color: firebrick; /* Color del texto rojo ladrillo */
+    padding: 10px 95px; /* Relleno interno */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    margin: 5px; /* Margen de 5px */
+    font-size: 20px; /* Tamaño de fuente de 20px */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
+/* Estilo para el enlace del Proyecto 1 */
 .Proyecto1 {
-    background-color: whitesmoke;
-    color : firebrick;
-    padding: 10px 81px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 5px;
-    font-size: 20px;
-    border-radius: 10px;
+    background-color: whitesmoke; /* Color de fondo blanco humo */
+    color: firebrick; /* Color del texto rojo ladrillo */
+    padding: 10px 81px; /* Relleno interno */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    margin: 5px; /* Margen de 5px */
+    font-size: 20px; /* Tamaño de fuente de 20px */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
+/* Estilo para los enlaces al pasar el ratón por encima */
 .IG:hover, .TK:hover, .Proyecto1:hover {
-    background-color: rgb(218, 74, 74);
-    color: whitesmoke;
-    transition: 0.2s;
-    border-radius: 10px;
+    background-color: rgb(218, 74, 74); /* Color de fondo rojo claro */
+    color: whitesmoke; /* Color del texto blanco humo */
+    transition: 0.2s; /* Transición suave de 0.2 segundos */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
+/* Estilo para las líneas horizontales */
 hr {
-    border: 1px solid white;
-    width: 50%;
+    border: 1px solid white; /* Borde sólido blanco de 1px */
+    width: 50%; /* Ancho del 50% */
 }
 
+/* Estilo para los párrafos */
 p {
-    font-size: 19px;
+    font-size: 19px; /* Tamaño de fuente de 19px */
 }
 
+/* Estilo para los encabezados de nivel 2 */
 h2 {
-    font-size: 25px;
+    font-size: 25px; /* Tamaño de fuente de 25px */
 }
 
 /* Animación de entrada */
 @keyframes fadeIn {
     from {
-        opacity: 0;
+        opacity: 0; /* Comienza con opacidad 0 */
     }
     to {
-        opacity: 1;
+        opacity: 1; /* Termina con opacidad 1 */
     }
 }

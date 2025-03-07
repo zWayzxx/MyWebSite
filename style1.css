@@ -1,232 +1,257 @@
+/* Estilos generales para html y body */
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;             
+    margin: 0; /* Eliminar margen */
+    padding: 0; /* Eliminar relleno */
+    height: 100%; /* Altura completa */
 }
 
+/* Estilos para el body */
 body {
-    font-family: Arial, sans-serif;
-    background: url('fondo.jpg') center/cover no-repeat fixed;
-    text-align: center;
-    height: 100vh;
+    font-family: Arial, sans-serif; /* Fuente Arial */
+    background: url('fondo.jpg') center/cover no-repeat fixed; /* Fondo con imagen centrada y cubierta */
+    text-align: center; /* Texto centrado */
+    height: 100vh; /* Altura de la ventana gráfica */
 }
 
+/* Estilos para el fondo */
 .fondo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('wp4778772-aesthetic-depressing-wallpapers.jpg') center/cover no-repeat fixed;
-    opacity: 0.5;
-    z-index: -1;
+    position: absolute; /* Posición absoluta */
+    top: 0; /* Desde arriba */
+    left: 0; /* Desde la izquierda */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    background: url('wp4778772-aesthetic-depressing-wallpapers.jpg') center/cover no-repeat fixed; /* Fondo con imagen centrada y cubierta */
+    opacity: 0.5; /* Opacidad del 50% */
+    z-index: -1; /* Colocar detrás de otros elementos */
 }
 
+/* Estilos para el título */
 .titulo {
-    background-color: black;
-    color: white;
-    font-style: italic;
-    padding: 10px 40px;
-    border-radius: 15px;
-    display: inline-block;
-    font-size: 2.2rem;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
-    text-shadow: 0px 3px 6px;
-    animation: fadeIn 2s ease-in-out;
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    font-style: italic; /* Texto en cursiva */
+    padding: 10px 40px; /* Relleno */
+    border-radius: 15px; /* Bordes redondeados */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 2.2rem; /* Tamaño de fuente */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5); /* Sombra */
+    text-shadow: 0px 3px 6px; /* Sombra de texto */
+    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
 }
 
+/* Estilos para los párrafos */
 .parrafo {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: aliceblue;
-    padding: 10px 20px;
-    border-radius: 25px;
-    margin: 5px;
-    display: inline-block;
-    text-align: center;
-    text-shadow: 0px 4px 10px;
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
-    animation: fadeIn 2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo negro translúcido */
+    color: aliceblue; /* Texto color azul claro */
+    padding: 10px 20px; /* Relleno */
+    border-radius: 25px; /* Bordes redondeados */
+    margin: 5px; /* Margen */
+    display: inline-block; /* Mostrar como bloque en línea */
+    text-align: center; /* Texto centrado */
+    text-shadow: 0px 4px 10px; /* Sombra de texto */
+    font-size: 15px; /* Tamaño de fuente */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Fuente */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5); /* Sombra */
+    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
 }
 
+/* Estilos para botones y enlaces */
 .boton1, .boton2, .roblox, .YT {
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    transition: 0.3s;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
-    text-shadow: 0px 3px 6px;
-    margin: 20px; /* Añadir margen para separar los botones */
-    animation: fadeIn 2s ease-in-out;
+    padding: 10px 20px; /* Relleno */
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    transition: 0.3s; /* Transición */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5); /* Sombra */
+    text-shadow: 0px 3px 6px; /* Sombra de texto */
+    margin: 20px; /* Margen */
+    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
 }
 
+/* Estilos específicos para el botón 1 */
 .boton1 {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: none;
+    background-color: rgb(255, 255, 255); /* Fondo blanco */
+    color: rgb(0, 0, 0); /* Texto negro */
+    border: none; /* Sin borde */
 }
 
+/* Estilos al pasar el ratón por encima de los botones */
 .boton1:hover, .boton2:hover {
-    background-color: #0056b3;
-    transform: scale(1.1);
+    background-color: #0056b3; /* Fondo azul */
+    transform: scale(1.1); /* Escalar */
 }
 
+/* Estilos al hacer clic en los botones */
 .boton1:active, .boton2:active {
-    background-color: #003f7f;
-    transform: scale(0.95);
+    background-color: #003f7f; /* Fondo azul oscuro */
+    transform: scale(0.95); /* Escalar */
 }
 
+/* Estilos específicos para el botón 2 */
 .boton2 {
-    background-color: rgb(26, 25, 25);
-    color: aliceblue;
-    border: none;
+    background-color: rgb(26, 25, 25); /* Fondo negro */
+    color: aliceblue; /* Texto azul claro */
+    border: none; /* Sin borde */
 }
 
+/* Estilos específicos para los enlaces de Roblox y YouTube */
 .roblox, .YT {
-    background-color: #0f0f0f;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-style: italic;
-    border: none;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
-    text-shadow: 0px 4px 10px;
-    margin: 5px;
-    transition: 0.3s;
-    border-radius: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-weight: bold;
-    text-decoration: none;
+    background-color: #0f0f0f; /* Fondo negro */
+    color: white; /* Texto blanco */
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    font-size: 20px; /* Tamaño de fuente */
+    font-style: italic; /* Texto en cursiva */
+    border: none; /* Sin borde */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5); /* Sombra */
+    text-shadow: 0px 4px 10px; /* Sombra de texto */
+    margin: 5px; /* Margen */
+    transition: 0.3s; /* Transición */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; /* Relleno */
+    cursor: pointer; /* Cursor de puntero */
+    font-weight: bold; /* Negrita */
+    text-decoration: none; /* Sin subrayado */
 }
 
+/* Estilos al pasar el ratón por encima de los enlaces de Roblox y YouTube */
 .roblox:hover, .YT:hover {
-    background-color: aliceblue;
-    transition: 0.3s;
-    color: black;
-    padding: 10px 15px;
-    border: solid;
-    border-color: black;
-    font-size: 22px;
-    font-weight: bold;
-    font-style: italic;
-    text-shadow: 0px 4px 10px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    background-color: aliceblue; /* Fondo azul claro */
+    transition: 0.3s; /* Transición */
+    color: black; /* Texto negro */
+    padding: 10px 15px; /* Relleno */
+    border: solid; /* Borde sólido */
+    border-color: black; /* Color del borde */
+    font-size: 22px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    font-style: italic; /* Texto en cursiva */
+    text-shadow: 0px 4px 10px; /* Sombra de texto */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5); /* Sombra */
 }
 
+/* Estilos al hacer clic en los enlaces de Roblox y YouTube */
 .roblox:active, .YT:active {
-    background-color: aliceblue;
-    color: black;
-    font-size: 10px;
-    padding: 8px 13px;
+    background-color: aliceblue; /* Fondo azul claro */
+    color: black; /* Texto negro */
+    font-size: 10px; /* Tamaño de fuente */
+    padding: 8px 13px; /* Relleno */
 }
 
+/* Estilos para la imagen */
 .imagen {
-    border-radius: 50px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
-    animation: fadeIn 2s ease-in-out;
+    border-radius: 50px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5); /* Sombra */
+    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
 }
 
+/* Estilos para el texto redondeado */
 .textornd {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 7px;
-    display: inline-block;
-    border-radius: 25px;
-    text-shadow: 0px 4px 10px;
-    animation: fadeIn 2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo negro translúcido */
+    padding: 7px; /* Relleno */
+    display: inline-block; /* Mostrar como bloque en línea */
+    border-radius: 25px; /* Bordes redondeados */
+    text-shadow: 0px 4px 10px; /* Sombra de texto */
+    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
 }
 
+/* Estilos para el encabezado de novia */
 #novia {
-    background-color: white;
-    color: black;
-    padding: 0.5rem;
-    display: inline-block;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 1rem;
-    text-shadow: 0 4px 10px rgba(0, 0, 0, 1);
-    animation: fadeIn 2s ease-in-out;
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+    padding: 0.5rem; /* Relleno */
+    display: inline-block; /* Mostrar como bloque en línea */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    font-weight: bold; /* Negrita */
+    font-style: italic; /* Texto en cursiva */
+    font-size: 1rem; /* Tamaño de fuente */
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 1); /* Sombra de texto */
+    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
 }
 
+/* Estilos para el párrafo de novia */
 .novia {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-    padding: 7px;
-    display: inline-block;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
-    text-shadow: 0px 4px 10px;
-    animation: fadeIn 2s ease-in-out;
-    margin: 0px 0px 30px 0px;
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo negro translúcido */
+    color: white; /* Texto blanco */
+    padding: 7px; /* Relleno */
+    display: inline-block; /* Mostrar como bloque en línea */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente */
+    font-size: medium; /* Tamaño de fuente */
+    text-shadow: 0px 4px 10px; /* Sombra de texto */
+    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
+    margin: 0px 0px 30px 0px; /* Margen */
 }
 
+/* Estilos para el enlace de novia */
 .noviaS {
-    color: aliceblue;
-    padding: 3px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    text-shadow: 0px 4px 10px;
-    text-decoration: none;
-    animation: fadeIn 2s ease-in-out;
-    transition: 0.3s;
+    color: aliceblue; /* Texto azul claro */
+    padding: 3px; /* Relleno */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Fuente */
+    font-style: italic; /* Texto en cursiva */
+    text-shadow: 0px 4px 10px; /* Sombra de texto */
+    text-decoration: none; /* Sin subrayado */
+    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
+    transition: 0.3s; /* Transición */
 }
 
+/* Estilos al pasar el ratón por encima del enlace de novia */
 .noviaS:hover {
-    font-weight: bold;
-    font-style: italic;
-    text-shadow: 0px 4px 10px;
-    transform: scale(0.95);
-    padding: 6px;
-    font-size: 15px;
-    text-decoration: none;
-    color: aliceblue;
-    transform: scale(0.95);
+    font-weight: bold; /* Negrita */
+    font-style: italic; /* Texto en cursiva */
+    text-shadow: 0px 4px 10px; /* Sombra de texto */
+    transform: scale(0.95); /* Escalar */
+    padding: 6px; /* Relleno */
+    font-size: 15px; /* Tamaño de fuente */
+    text-decoration: none; /* Sin subrayado */
+    color: aliceblue; /* Texto azul claro */
+    transform: scale(0.95); /* Escalar */
 }
 
 /* Animación de entrada */
 @keyframes fadeIn {
     from {
-        opacity: 0;
+        opacity: 0; /* Comienza con opacidad 0 */
     }
     to {
-        opacity: 1;
+        opacity: 1; /* Termina con opacidad 1 */
     }
 }
 
+/* Estilos para el encabezado */
 header {
-    background-color: rgba(0,0,0,0.5); /* Color de fondo */
+    background-color: rgba(0,0,0,0.5); /* Fondo negro translúcido */
     transition: 0.3s; /* Transición */
     padding: 20px 100px 20px 100px; /* Relleno */
     margin: 25px; /* Margen */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
 }
+
+/* Estilos al pasar el ratón por encima del encabezado */
 header:hover {
     transform: scale(1.01); /* Escalar */
 }
+
+/* Estilos para la navegación y la lista */
 nav, ul {
     display: inline-block; /* Mostrar como bloque en línea */
-    display: inline-flex; /* Mostrar como flex en línea */  
+    display: inline-flex; /* Mostrar como flex en línea */
     list-style: none; /* Quitar viñetas */
 }
 
+/* Estilos para los enlaces de la barra de navegación */
 .barra {
     list-style: none; /* Quitar viñetas */
-    color: white; /* Color de texto */
-    text-decoration: none; /* Quitar subrayado */
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
     transform: scale(1.1); /* Escalar */
-    margin: 20px; /* Añadir margen */
-    border: solid black 1px; /* Añadir borde */
-    padding: 11px 20px; /* Añadir relleno */
+    margin: 20px; /* Margen */
+    border: solid black 1px; /* Borde negro */
+    padding: 11px 20px; /* Relleno */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
     transition: 0.3s; /* Transición */
@@ -235,23 +260,27 @@ nav, ul {
     font-family: 'Times New Roman', Times, serif; /* Fuente */
     text-shadow: 0px 4px 10px; /* Sombra de texto */
 }
+
+/* Estilos al pasar el ratón por encima de los enlaces de la barra de navegación */
 .barra:hover {
-    background-color: black; /* Color de fondo */
-    color: white; /* Color de texto */
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
     transform: scale(1.2); /* Escalar */
-    padding: 10px 25px; /* Añadir relleno */
+    padding: 10px 25px; /* Relleno */
     font-size: 22px; /* Tamaño de fuente */
     font-weight: bold; /* Negrita */
     font-family: 'Times New Roman', Times, serif; /* Fuente */
     text-shadow: 0px 4px 10px; /* Sombra de texto */
 }
+
+/* Estilos al hacer clic en los enlaces de la barra de navegación */
 .barra:active {
-    background-color: black; /* Color de fondo */
-    color: white; /* Color de texto */
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
     transform: scale(0.9); /* Escalar */
-    padding: 10px 15px; /* Añadir relleno */
+    padding: 10px 15px; /* Relleno */
     font-size: 18px; /* Tamaño de fuente */
     font-weight: bold; /* Negrita */
     font-family: 'Times New Roman', Times, serif; /* Fuente */
     text-shadow: 0px 4px 10px; /* Sombra de texto */
-}    
+}
