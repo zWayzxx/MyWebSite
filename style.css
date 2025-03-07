@@ -1,0 +1,75 @@
+body {
+    background-color: firebrick;
+    font-family:'sans-serif';
+    text-align: center;
+    color: white;
+    animation: fadeIn 1s;
+}
+
+img {
+    border-radius: 100px;
+    border: solid 2px white;
+}
+
+.IG {
+    background-color: whitesmoke;
+    color : firebrick;
+    padding: 10px 85px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.TK {
+    background-color: whitesmoke;
+    color : firebrick;
+    padding: 10px 95px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.Proyecto1 {
+    background-color: whitesmoke;
+    color : firebrick;
+    padding: 10px 81px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.IG:hover, .TK:hover, .Proyecto1:hover {
+    background-color: rgb(218, 74, 74);
+    color: whitesmoke;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+hr {
+    border: 1px solid white;
+    width: 50%;
+}
+
+p {
+    font-size: 19px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

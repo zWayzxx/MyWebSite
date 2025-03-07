@@ -1,0 +1,257 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;             
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('fondo.jpg') center/cover no-repeat fixed;
+    text-align: center;
+    height: 100vh;
+}
+
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('wp4778772-aesthetic-depressing-wallpapers.jpg') center/cover no-repeat fixed;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.titulo {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 10px 40px;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 2.2rem;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    text-shadow: 0px 3px 6px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.parrafo {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 0px 4px 10px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    animation: fadeIn 2s ease-in-out;
+}
+
+.boton1, .boton2, .roblox, .YT {
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    text-shadow: 0px 3px 6px;
+    margin: 20px; /* Añadir margen para separar los botones */
+    animation: fadeIn 2s ease-in-out;
+}
+
+.boton1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.boton1:hover, .boton2:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.boton1:active, .boton2:active {
+    background-color: #003f7f;
+    transform: scale(0.95);
+}
+
+.boton2 {
+    background-color: rgb(26, 25, 25);
+    color: aliceblue;
+    border: none;
+}
+
+.roblox, .YT {
+    background-color: #0f0f0f;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    text-shadow: 0px 4px 10px;
+    margin: 5px;
+    transition: 0.3s;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.roblox:hover, .YT:hover {
+    background-color: aliceblue;
+    transition: 0.3s;
+    color: black;
+    padding: 10px 15px;
+    border: solid;
+    border-color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0px 4px 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+
+.roblox:active, .YT:active {
+    background-color: aliceblue;
+    color: black;
+    font-size: 10px;
+    padding: 8px 13px;
+}
+
+.imagen {
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    animation: fadeIn 2s ease-in-out;
+}
+
+.textornd {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 7px;
+    display: inline-block;
+    border-radius: 25px;
+    text-shadow: 0px 4px 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+#novia {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1rem;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    animation: fadeIn 2s ease-in-out;
+}
+
+.novia {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 7px;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-shadow: 0px 4px 10px;
+    animation: fadeIn 2s ease-in-out;
+    margin: 0px 0px 30px 0px;
+}
+
+.noviaS {
+    color: aliceblue;
+    padding: 3px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-shadow: 0px 4px 10px;
+    text-decoration: none;
+    animation: fadeIn 2s ease-in-out;
+    transition: 0.3s;
+}
+
+.noviaS:hover {
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0px 4px 10px;
+    transform: scale(0.95);
+    padding: 6px;
+    font-size: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    transform: scale(0.95);
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header {
+    background-color: rgba(0,0,0,0.5); /* Color de fondo */
+    transition: 0.3s; /* Transición */
+    padding: 20px 100px 20px 100px; /* Relleno */
+    margin: 25px; /* Margen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    animation: fadeIn 2s ease-in-out;
+}
+header:hover {
+    transform: scale(1.01); /* Escalar */
+}
+nav, ul {
+    display: inline-block; /* Mostrar como bloque en línea */
+    display: inline-flex; /* Mostrar como flex en línea */  
+    list-style: none; /* Quitar viñetas */
+}
+
+.barra {
+    list-style: none; /* Quitar viñetas */
+    color: white; /* Color de texto */
+    text-decoration: none; /* Quitar subrayado */
+    transform: scale(1.1); /* Escalar */
+    margin: 20px; /* Añadir margen */
+    border: solid black 1px; /* Añadir borde */
+    padding: 11px 20px; /* Añadir relleno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    transition: 0.3s; /* Transición */
+    font-size: 20px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    text-shadow: 0px 4px 10px; /* Sombra de texto */
+}
+.barra:hover {
+    background-color: black; /* Color de fondo */
+    color: white; /* Color de texto */
+    transform: scale(1.2); /* Escalar */
+    padding: 10px 25px; /* Añadir relleno */
+    font-size: 22px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    text-shadow: 0px 4px 10px; /* Sombra de texto */
+}
+.barra:active {
+    background-color: black; /* Color de fondo */
+    color: white; /* Color de texto */
+    transform: scale(0.9); /* Escalar */
+    padding: 10px 15px; /* Añadir relleno */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    font-family: 'Times New Roman', Times, serif; /* Fuente */
+    text-shadow: 0px 4px 10px; /* Sombra de texto */
+}    
