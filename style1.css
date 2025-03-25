@@ -154,62 +154,6 @@ body {
     animation: fadeIn 2s ease-in-out; /* Animación de entrada */
 }
 
-/* Estilos para el encabezado de novia */
-#novia {
-    background-color: white; /* Fondo blanco */
-    color: black; /* Texto negro */
-    padding: 0.5rem; /* Relleno */
-    display: inline-block; /* Mostrar como bloque en línea */
-    border-radius: 20px; /* Bordes redondeados */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
-    font-family: 'Times New Roman', Times, serif; /* Fuente */
-    font-weight: bold; /* Negrita */
-    font-style: italic; /* Texto en cursiva */
-    font-size: 1rem; /* Tamaño de fuente */
-    text-shadow: 0 4px 10px rgba(0, 0, 0, 1); /* Sombra de texto */
-    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
-}
-
-/* Estilos para el párrafo de novia */
-.novia {
-    background-color: rgba(0, 0, 0, 0.3); /* Fondo negro translúcido */
-    color: white; /* Texto blanco */
-    padding: 7px; /* Relleno */
-    display: inline-block; /* Mostrar como bloque en línea */
-    border-radius: 12px; /* Bordes redondeados */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente */
-    font-size: medium; /* Tamaño de fuente */
-    text-shadow: 0px 4px 10px; /* Sombra de texto */
-    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
-    margin: 0px 0px 30px 0px; /* Margen */
-}
-
-/* Estilos para el enlace de novia */
-.noviaS {
-    color: aliceblue; /* Texto azul claro */
-    padding: 3px; /* Relleno */
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Fuente */
-    font-style: italic; /* Texto en cursiva */
-    text-shadow: 0px 4px 10px; /* Sombra de texto */
-    text-decoration: none; /* Sin subrayado */
-    animation: fadeIn 2s ease-in-out; /* Animación de entrada */
-    transition: 0.3s; /* Transición */
-}
-
-/* Estilos al pasar el ratón por encima del enlace de novia */
-.noviaS:hover {
-    font-weight: bold; /* Negrita */
-    font-style: italic; /* Texto en cursiva */
-    text-shadow: 0px 4px 10px; /* Sombra de texto */
-    transform: scale(0.95); /* Escalar */
-    padding: 6px; /* Relleno */
-    font-size: 15px; /* Tamaño de fuente */
-    text-decoration: none; /* Sin subrayado */
-    color: aliceblue; /* Texto azul claro */
-    transform: scale(0.95); /* Escalar */
-}
-
 /* Animación de entrada */
 @keyframes fadeIn {
     from {
