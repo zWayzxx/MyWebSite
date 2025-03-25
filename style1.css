@@ -86,6 +86,7 @@ body {
 .boton1:active, .boton2:active {
     background-color: #003f7f; /* Fondo azul oscuro */
     transform: scale(0.95); /* Escalar */
+    padding: 0 20px 0 20px; 
 }
 
 /* Estilos específicos para el botón 2 */
