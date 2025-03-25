@@ -96,7 +96,7 @@ body {
 }
 
 /* Estilos específicos para los enlaces de Roblox y YouTube */
-.roblox, .YT {
+.roblox {
     background-color: #0f0f0f; /* Fondo negro */
     color: white; /* Texto blanco */
     font-family: 'Times New Roman', Times, serif; /* Fuente */
